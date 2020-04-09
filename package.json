@@ -1,0 +1,31 @@
+{
+  "name": "eustero",
+  "version": "1.0.0",
+  "description": "learning node",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "start-server": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EustaceMwai/Nodejsbeginner.git"
+  },
+  "author": "eustero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EustaceMwai/Nodejsbeginner/issues"
+  },
+  "homepage": "https://github.com/EustaceMwai/Nodejsbeginner#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.0.2",
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.3",
+    "pug": "^2.0.4"
+  }
+}
