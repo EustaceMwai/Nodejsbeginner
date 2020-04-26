@@ -1,6 +1,6 @@
 const Sequelize = require('sequelize');
 
-const sequelize = require('../util/database');
+const sequelize = require('c:/Users/kingsly/Desktop/To do nodeapp/util/database');
 
 const OrderItem = sequelize.define('orderItem', {
   id: {
